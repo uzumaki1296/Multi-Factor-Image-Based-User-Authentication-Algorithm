@@ -1,0 +1,215 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		
+<link rel="stylesheet" href="reg.css">
+
+<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+		
+<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+
+<title>REGISTRATION</title>
+<style>
+
+#playground-container {
+	height: 500px;
+	overflow: hidden !important;
+	-webkit-oevrflow-scrolling: touch;
+}
+
+body {
+	height: 100px;
+	background-repeat: no-repeat;	
+	background-size: cover;
+	font-family: 'Oxygen', sans-serif;
+	background-image: url("C:\\Users\\devan\\Downloads\\Pictures\\blur.jpg");	
+}
+
+.main {
+	margin: 50px 15px;
+}
+
+.title {
+	font-size: 50px;
+	font-family: 'Passion One', cursive;
+	font-weight: 400;
+}
+
+hr {
+	
+	width: 10%;
+	
+	color: #fff;
+
+}
+
+.form-group {
+	margin-bottom: 30px;
+}
+
+label {
+	margin-bottom: 20px;
+}
+
+input,input::-webkit-input-placeholder {
+	font-size: 11px;
+	padding-top: 3px;
+}
+
+.main-login {
+	background-color: #fff;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+}
+
+.form-control {
+	height: auto;
+	padding: 8px 12px;
+}
+
+.input-group {
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21);
+}
+
+.button {
+    
+	background-color: white;
+	border: none;
+	color: teal;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	position: relative;
+	left: 35%;
+	border-radius: 4px;	
+}
+
+.main-center {
+ 	
+	margin-top: 30px;
+ 	
+	margin: 0 auto;
+ 	
+	max-width: 400px;
+    
+	padding: 10px 40px;
+	
+	background:#009edf;
+	    
+	color: #FFF;
+    
+	text-shadow: none;
+	
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+	
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+	
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+
+
+}
+
+span.input-group-addon i {
+	color: white;
+    
+	font-size: 17px;
+
+}
+
+#mobile {
+	color: white;
+	font-size: 25px;
+}
+
+
+
+.login-button {
+	margin-top: 5px;
+
+}
+
+
+.login-register {
+	font-size: 11px;
+	text-align: center;
+
+}
+
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row main">
+			<div class="main-login main-center">
+			<h3>WELCOME TO THE PROJECT REGISTRATION</h3>
+				<form class="" method="POST" action="PasswordStorage.jsp">
+					<div class="form-group">
+						<label for="name" class="cols-sm-2 control-label">Name</label>
+						<div class="cols-sm-10">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+								<input type="text" class="form-control" name="name" id="name" size=55.1 placeholder="Enter your Name"/>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="email" class="cols-sm-2 control-label">E-mail</label>
+						<div class="cols-sm-10">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+								<input type="text" class="form-control" name="email" id="email" size=54.9 placeholder="Enter your E-mail"/>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="username" class="cols-sm-2 control-label">Username</label>
+						<div class="cols-sm-10">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+								<input type="text" class="form-control" name="username" id="username" size=54.9 placeholder="Enter your UserName"/>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="telNo" class="cols-sm-2 control-label">Mobile No.</label>
+						<div class="cols-sm-10">
+							<div class="input-group">
+								<span id="mobile"><i class="fa fa-mobile fa" aria-hidden="true"></i></span>
+								<input type="tel" class="form-control" name="telNo" id="telNo" size=55.3 maxlength="10"/>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<input type="submit" class="button" value="Submit">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
